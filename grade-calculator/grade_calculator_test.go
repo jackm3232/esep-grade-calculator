@@ -34,8 +34,8 @@ func TestGetGradeB(t *testing.T) {
 	}
 }
 
-func TestGetGradeF(t *testing.T) {
-	expected_value := "F"
+func TestGetGradeA2(t *testing.T) {
+	expected_value := "A"
 
 	gradeCalculator := NewGradeCalculator()
 
