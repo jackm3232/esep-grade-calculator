@@ -40,7 +40,7 @@ func (gc *GradeCalculator) GetFinalGrade() string {
 	numericalGrade := gc.calculateNumericalGrade()
 
 	if gc.passFailMode {
-		if numericalGrade >= 60 {
+		if numericalGrade >= 70 {
 			return "Pass"
 		}
 		return "Fail"
